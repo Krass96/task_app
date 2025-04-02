@@ -12,16 +12,14 @@ class MyStatelessWidget extends StatelessWidget {
   const MyStatelessWidget({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text('Hello Krasimir Varnaliev'),
-        SizedBox(height: 10),
-        ElevatedButton(
-          onPressed: () {},
-          child: Text('Klick mich'),
-        ),
-      ],
-    );
-  }
+  Widget build(BuildContext context) => Column(
+        children: [
+          Text('Hello Krasimir Varnaliev'),
+          SizedBox(height: 10),
+          ElevatedButton(
+            onPressed: () {},
+            child: Text('Klick mich'),
+          ),
+        ],
+      );
 }
